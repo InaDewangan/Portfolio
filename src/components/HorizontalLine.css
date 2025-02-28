@@ -1,0 +1,18 @@
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #38BDF8;
+  white-space: nowrap;
+  padding: 20px 0;
+  position: relative;
+}
+
+.scrolling-text {
+  display: flex;
+  gap: 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
