@@ -17,7 +17,7 @@ const headingFadeIn = {
     visible: { opacity: 1, y: 0, transition: { duration: 1 } },
 };
 
-const Services = () => {
+const DevelopmentStack = () => {
     const services = [
         {
             title: "Frontend Web Development",
@@ -64,7 +64,7 @@ const Services = () => {
                         variant="h5"
                         sx={{ color: "#38BDF8", fontWeight: 600, letterSpacing: "2px", textAlign: "center", mb: 2, mt: 1 }}
                     >
-                        MY SERVICES
+                        My Development Stack
                     </Typography>
                     <Typography variant="h4" fontWeight={700} sx={{ color: "white", textAlign: "center", mb: 7 }}>
                         Innovative solutions that transform ideas into reality
@@ -112,4 +112,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default DevelopmentStack;

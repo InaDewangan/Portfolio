@@ -25,7 +25,7 @@ const Navbar = () => {
         <Box sx={{ display: { xs: "none", md: "flex" } }}>
           <Button sx={{ color: "white", mx: 1 }} onClick={() => scrollToSection("home")}>Home</Button>
           <Button sx={{ color: "white", mx: 1 }} onClick={() => scrollToSection("about")}>About</Button>
-          <Button sx={{ color: "white", mx: 1 }} onClick={() => scrollToSection("services")}>Services</Button>
+          <Button sx={{ color: "white", mx: 1 }} onClick={() => scrollToSection("education-skills")}>Skills</Button>
           <Button sx={{ color: "white", mx: 1 }} onClick={() => scrollToSection("projects")}>Projects</Button>
           <Button sx={{ color: "white", mx: 1 }} onClick={() => scrollToSection("contact")}>Contact</Button>
         </Box>
