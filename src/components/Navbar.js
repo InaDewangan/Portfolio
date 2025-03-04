@@ -45,7 +45,7 @@ const Navbar = () => {
             },
           }}>
           <List>
-            {["home", "about", "services", "projects", "contact"].map((text) => (
+            {["home", "about", "skills", "projects", "contact"].map((text) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton 
                   onClick={() => scrollToSection(text)}
